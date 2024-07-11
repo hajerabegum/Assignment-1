@@ -62,33 +62,47 @@
     text-align: center;
 }
 .about{
-    background-color:white;
+    background-color:wheat;
     max-width: 800px;
     text-align: center;
     padding: 200px 500px;
     margin: 100px 500px;
     justify-content: space-between;
 }
-main{
- max-width: 1140px;
- margin: 0 auto;
+
+.about1{
+
+    background-color:wheat;
+    max-width: 800px;
+    text-align: center;
+    padding: 200px 500px;
+    margin: 100px 500px;
+    justify-content: space-between;
 }
-main section{
-    margin-top:130px;
-    margin-bottom: 130px;
-}
+/* main{
+    max-width: 1140px;
+    margin: 0 auto;
+   }
+   main section{
+       margin-top:130px;
+       margin-bottom: 130px;
+   } */
 .div1{
-    margin-top: 20px;
-    background-color:white;
-    align-items: center;
     
+    text-align: left;
+    background-color:white;
+    padding-left: 20px;
+    margin-top: 10px;
     display: flex;
     border-radius: 5px;
     
     
 }
+.test-1{
+    margin-top: 50px;
+}
 .sec-1{
-    background-color: antiquewhite;  
+    background-color: violet;  
     padding: 20px; 
     border-radius: 5px;
 }
@@ -117,13 +131,14 @@ main section{
 .bg-img{
     background-image: url(../assets/handshake.jpg);
   gap: 50px;
-  margin-top: 50px;
+
 }
+/* footer */
 .ft{
     display: flex;
     text-align: center;
-    padding: 200px 500px;
-    margin-top: 100px;
+    padding: 50px 500px;
+    margin-top:500px;
    
     justify-content: space-between;
     background-color:rgba(13, 19, 33, 0.03);
